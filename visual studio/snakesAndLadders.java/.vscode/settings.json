@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "ui",
+        "src",
+        "core",
+        "isherida_Assignment_PSP1/ui"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
