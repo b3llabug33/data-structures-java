@@ -1,6 +1,6 @@
 # Data Structures & Algorithms (Java)
 
-Coursework from SER222 — Data Structures and Algorithms. Includes implementations of core data structures, algorithm analysis, and a standalone project.
+Coursework from SER222 — Data Structures and Algorithms. Includes implementations of core data structures and algorithm analysis.
 
 ## Assignments
 
@@ -10,19 +10,6 @@ Coursework from SER222 — Data Structures and Algorithms. Includes implementati
 | `homework/ser222hw3` | **Linked List & Ordered List** — singly-linked list and a sorted ordered list variant |
 | `homework/ser222hw5` | **Benchmarking** — stopwatch-based tool for empirical Big-O analysis |
 | `homework/ser222hw6` | **Merging Algorithms** — merge sort and k-way merge implementations |
-
-## Project: Snakes and Ladders
-
-A console-based Snakes and Ladders game with human vs. computer gameplay.
-
-```
-projects/snakesAndLadders.java/src/
-├── core/
-│   ├── ComputerPlayer.java   # AI player logic
-│   └── GameLogic.java        # Board, snakes, and ladders rules
-└── ui/
-    └── GameConsoleUI.java    # Console interface
-```
 
 ## How to Run (any assignment)
 
