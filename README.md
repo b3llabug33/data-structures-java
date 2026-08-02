@@ -1,22 +1,22 @@
 # Data Structures & Algorithms (Java)
 
-Coursework from SER222 — Data Structures and Algorithms. Includes implementations of core data structures and algorithm analysis.
+Homework from SER222 — building the core data structures from scratch and messing around with algorithm analysis.
 
 ## Assignments
 
-| Folder | Topic |
-|--------|-------|
-| `ser222hw1` | **Matrix** — 2D matrix implementation and operations |
-| `ser222hw2` | **Deque** — double-ended queue implemented from scratch with a node-based structure |
-| `ser222hw3` | **Linked List & Ordered List** — singly-linked list and a sorted ordered list variant |
-| `ser222hw5` | **Benchmarking** — stopwatch-based tool for empirical Big-O analysis |
-| `ser222hw6` | **Merging Algorithms** — merge sort and k-way merge implementations |
-| `ser222hw7` | **Binary Search Tree** — BST implementation |
-| `ser222hw8` | **Hash Tables** — linear probing, quadratic probing, and separate chaining collision resolution |
-| `ser222hw9` | **Deque** (earlier draft) — an in-progress version of the same Deque assignment as `ser222hw2` |
-| `ser222hw12` | **Graphs** — directed graph implementation and topological sort |
+- `ser222hw1` — Matrix, 2D matrix implementation and operations
+- `ser222hw2` — Deque, double-ended queue built from scratch with nodes
+- `ser222hw3` — Linked List & Ordered List
+- `ser222hw5` — Benchmarking, stopwatch tool for measuring Big-O in practice
+- `ser222hw6` — Merging Algorithms, merge sort and k-way merge
+- `ser222hw7` — Binary Search Tree
+- `ser222hw8` — Hash Tables, linear probing, quadratic probing, and separate chaining
+- `ser222hw9` — another Deque attempt, an earlier/unfinished pass at the same assignment as hw2
+- `ser222hw12` — Graphs, directed graph + topological sort
 
-## How to Run (assignments with the src/bin/lib layout)
+## How to Run
+
+Most of these follow a src/bin/lib layout:
 
 ```bash
 cd ser222hwX/src
@@ -24,7 +24,7 @@ javac *.java
 java App
 ```
 
-Assignments without that layout (`ser222hw7`, `ser222hw8`, `ser222hw9`) are single/loose `.java` files — compile and run them directly.
+`ser222hw7`, `ser222hw8`, and `ser222hw9` are just loose `.java` files — compile and run those directly.
 
 ## Requirements
 
